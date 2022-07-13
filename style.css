@@ -65,7 +65,7 @@ body{
     background-color: cadetblue;
     border: 1px solid coral;
     border-radius: 10px;
-    top: -30px;
+    top: -0px;
     color: white;
     font-weight: 700px;
     font-size: 18px;
@@ -170,7 +170,7 @@ body{
     width: 100%;
 }
 .dmd-1{
-    margin: 150px 0 0 50px;
+    margin: 150px 0 0 30px;
 }
 .dmd-1 h1{
     font-size: 70px;
@@ -192,5 +192,16 @@ body{
     top: -55px;
     left: 40px;
 }
-
+.dmd-1 button{
+    position: relative;
+    padding: 20px;
+    background-color: darkcyan;
+    border: 1px solid coral;
+    border-radius: 10px;
+    top: -50px;
+    left: 180px;
+    color: white;
+    font-weight: 700px;
+    font-size: 18px;
+}
 
