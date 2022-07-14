@@ -1,33 +1,37 @@
-
-body{
+*{
     margin: 0;
     padding: 0;
+}
+body{
+    
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 .header{
+    position: relative;
+    
     width: 100%;
     height: 700px;
     background-image: url(./image/chairman.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-    padding: 30px;
-    margin: 10px 0 10px 10px;
 }
 .header h1 {
     text-align: center;
     position: relative;
     top: 150px;
-    left: 200px;
     font-style: italic;
+    left: 170px;
     font-size: 50px;
     color: gray;
+
 }
 .header h3{
     text-align: center;
     position: relative;
     top: 150px;
-    left: 200px;
+    left: 170px;
     color: darkgoldenrod;
 }
 .chairman{
@@ -53,7 +57,7 @@ body{
 }
 .chairman-2 h5{
     position: relative;
-    top: -30px;
+    top: 10px;
     font-size: 16px;
     left: 25px;
     font-family: sans-serif;
@@ -65,7 +69,7 @@ body{
     background-color: cadetblue;
     border: 1px solid coral;
     border-radius: 10px;
-    top: -0px;
+    top: 40px;
     color: white;
     font-weight: 700px;
     font-size: 18px;
@@ -92,7 +96,7 @@ body{
 .vice-chairman-1 h5{
     font-size: 18px;
     position: relative;
-    top: 50px;
+    top: 90px;
     left: 220px;
 }
 .vice-chairman-2 img{
@@ -114,7 +118,7 @@ body{
     font-weight: 700px;
     font-size: 18px;
     left: 350px;
-    top: 50px;
+    top: 120px;
 }
 .md{
     display: flex;
@@ -132,7 +136,8 @@ body{
     width: 400px;
     border-radius: 10px;
     position: relative;
-    top: 70px;
+    top: 60px;
+    left: 70px;
     
 }
 .md-sir-1 h1{
@@ -140,13 +145,13 @@ body{
     font-size: 40px;
     font-style: italic;
     position: relative;
-    left: 80px;
+    left: 120px;
     top: 150px;
 }
 .md-sir-1 h5{
     position: relative;
-    top: 120px;
-    left: 120px;
+    top: 160px;
+    left: 250px;
 }
 .md-sir-1 button{
     position: relative;
@@ -154,8 +159,8 @@ body{
     background-color: darkcyan;
     border: 1px solid coral;
     border-radius: 10px;
-    top: 120px;
-    left: 230px;
+    top: 190px;
+    left: 340px;
     color: white;
     font-weight: 700px;
     font-size: 18px;
@@ -163,21 +168,21 @@ body{
 .dmd{
     display: flex;
     justify-content: center;
-    margin: 20px 10px 10px 10px;
+    margin: 20px 10px 30px 8px;
     background-color: darksalmon;
     border-radius: 10px;
     height: 500px;
-    width: 100%;
+    width: 99%;
 }
 .dmd-1{
-    margin: 150px 0 0 30px;
+    margin: 150px 0 0 10px;
 }
 .dmd-1 h1{
     font-size: 70px;
     font-style: italic;
 }
 .dmd-2{
-    margin: 20px 20px 10px 60px;
+    margin: 20px 10px 10px 0px;
 }
 .dmd-2 img{
     height: 400px;
@@ -189,7 +194,7 @@ body{
 }
 .dmd-1 h5{
     position: relative;
-    top: -55px;
+    top: 10px;
     left: 40px;
 }
 .dmd-1 button{
@@ -198,8 +203,49 @@ body{
     background-color: darkcyan;
     border: 1px solid coral;
     border-radius: 10px;
-    top: -50px;
+    top: 40px;
     left: 180px;
+    color: white;
+    font-weight: 700px;
+    font-size: 18px;
+}
+.director-int{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    justify-items: center;
+    background-color: cornsilk;
+    margin: 30px 10px 30px 10px;
+    border-radius: 10px;
+}
+.director-int-1 img{
+    height: 400px;
+    width: 400px;
+    padding-bottom: 20px 0 0 30px;
+    position: relative;
+    left: -200px;
+    top: 50px;
+    border-radius: 10px;
+}
+.director-int-2 h1{
+    position: relative;
+    top: 200px;
+    font-size: 50px;
+    font-style: italic;
+}
+.director-int-2 h5{
+    position: relative;
+    top: 210px;
+    left: 50px;
+}
+.director-int-2 button{
+    position: relative;
+    top: 240px;
+    left: 150px;
+    background-color: darkcyan;
+    border: 1px solid coral;
+    border-radius: 10px;
+    padding: 20px;
     color: white;
     font-weight: 700px;
     font-size: 18px;
